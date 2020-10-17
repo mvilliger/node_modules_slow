@@ -1,0 +1,1 @@
+pnpm install --ignore-scripts
