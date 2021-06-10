@@ -14,6 +14,7 @@
       <module name="node_modules_7.ui.html" target="11" />
       <module name="node_modules_8.ui.html" target="11" />
       <module name="node_modules_9.ui.html" target="11" />
+      <module name="root" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

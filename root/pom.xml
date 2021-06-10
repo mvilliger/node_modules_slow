@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>org.eclipse.scout</groupId>
+    <artifactId>maven_rt_plugin_config-master</artifactId>
+    <version>3.12.7</version>
+    <relativePath />
+  </parent>
+
+  <artifactId>root</artifactId>
+  
+  <modules>
+	<module>node_modules_1.ui.html</module>
+	<module>node_modules_2.ui.html</module>
+	<module>node_modules_3.ui.html</module>
+	<module>node_modules_4.ui.html</module>
+	<module>node_modules_5.ui.html</module>
+	<module>node_modules_6.ui.html</module>
+	<module>node_modules_7.ui.html</module>
+	<module>node_modules_8.ui.html</module>
+	<module>node_modules_9.ui.html</module>
+	<module>node_modules_10.ui.html</module>
+	<module>node_modules_11.ui.html</module>
+	<module>node_modules_12.ui.html</module>
+  </modules>
+
+  <properties>
+    <jdk.source.version>11</jdk.source.version>
+    <org.eclipse.scout.rt.version>10.0.37</org.eclipse.scout.rt.version>
+  </properties>
+
+  <dependencyManagement>
+    <dependencies>
+      <!-- Scout Dependencies -->
+      <dependency>
+        <groupId>org.eclipse.scout.rt</groupId>
+        <artifactId>org.eclipse.scout.rt</artifactId>
+        <version>${org.eclipse.scout.rt.version}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+</project>
