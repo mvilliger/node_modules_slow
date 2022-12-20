@@ -11,6 +11,7 @@
   </parent>
 
   <artifactId>root</artifactId>
+  <packaging>pom</packaging>
   
   <modules>
 	<module>node_modules_1.ui.html</module>
